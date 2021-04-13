@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "814161147662",
+    "firebase_url": "https://film-db-fb4a6.firebaseio.com",
+    "project_id": "film-db-fb4a6",
+    "storage_bucket": "film-db-fb4a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814161147662:android:36cd83135cd120194e495f",
+        "android_client_info": {
+          "package_name": "com.example.tugas3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814161147662-nf4a1vr8nj97bqjmpiu81a5qibt9aff7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tugas3",
+            "certificate_hash": "f8866222f7758d49896d070edfa6ccd1976a9149"
+          }
+        },
+        {
+          "client_id": "814161147662-19fv20lu7b3ll4jo8ic37f9eq0p1bjhq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT6LYdoJqTHyNVDanHUs7u7mJXY58drdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814161147662-19fv20lu7b3ll4jo8ic37f9eq0p1bjhq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

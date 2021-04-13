@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityRegister"
+    android:background="@color/a"    >
+
+
+
+<androidx.cardview.widget.CardView
+    app:cardBackgroundColor="@color/cardview"
+    android:layout_width="340dp"
+    android:layout_height="400dp"
+    android:layout_marginTop="75dp"
+    android:layout_marginStart="40dp"
+    app:cardCornerRadius="15dp">
+
+    <TextView
+        android:id="@+id/txtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrasi"
+        android:textSize="30sp"
+        android:textColor="@color/card"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="25dp"
+        />
+<androidx.cardview.widget.CardView
+    android:layout_width="310dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="100dp"
+    app:cardCornerRadius="7dp"
+    app:cardBackgroundColor="@color/c"
+    >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_email"
+        android:textColorHint="@color/d"
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            android:backgroundTint="@color/d"
+            android:textColor="@color/card"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="170dp"
+        app:cardCornerRadius="7dp"
+        app:cardBackgroundColor="@color/c"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/d"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/d"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:backgroundTint="@color/d"
+                android:textColor="@color/card"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:layout_below="@+id/text_password"
+        android:layout_marginTop="310dp"
+        android:textAllCaps="true"
+        android:id="@+id/btn_reset"
+        android:layout_marginStart="15dp"
+        android:background="@color/b"
+        android:textColor="@color/putih"
+
+        />
+
+    <Button
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:textAllCaps="true"
+        android:layout_below="@+id/text_password"
+        android:layout_marginTop="245dp"
+        android:id="@+id/btn_regis"
+        android:layout_marginStart="15dp"
+        android:background="@color/b"
+        android:textColor="@color/putih"
+
+        />
+
+</androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/asppupuu"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/gambarr"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:text="UNIVERSITAS SUMATERA UTARA"
+        android:textColor="@color/d"
+        android:textSize="17dp"
+        android:layout_toRightOf="@id/gambarr"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="645dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/d"
+        android:layout_toRightOf="@+id/gambarr"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIVERSITY OF SUMATERA UTARA"
+        android:textSize="13dp"
+        android:textColor="@color/d"
+        android:layout_marginTop="647dp"
+        android:layout_toRightOf="@id/gambarr"/>
+
+
+
+</RelativeLayout>

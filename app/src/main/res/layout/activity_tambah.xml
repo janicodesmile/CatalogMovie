@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tambah"
+    android:background="@drawable/color1">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        app:cardBackgroundColor="@color/cardvieww"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/l"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="10dp"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/d"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_tambahjudul"
+                    android:hint="Judul"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/white"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/l"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="65dp"
+            >
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/d"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_tambahtahun"
+            android:hint="Tahun"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/l"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="130dp"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/d"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_tambahket"
+                    android:hint="Keterangan"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/white"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/l"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="195dp"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/d"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_tambahsinopsis"
+                    android:hint="Sinopsis"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/white"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah"
+        android:id="@+id/btn_tambah"
+        android:textColor="@color/white"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/btn"
+        android:layout_marginEnd="150dp"
+        android:layout_marginStart="150dp"
+        />
+    <TextView
+        android:id="@+id/emailadmin2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Gambar"
+        android:textColor="@color/white"
+        android:id="@+id/btn_tambahcover"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/btn"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btn_tambahcover"
+        android:id="@+id/image_view"
+        />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginTop="690dp"
+        android:id="@+id/progressBar"
+        />
+
+</RelativeLayout>

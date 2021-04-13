@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HalamanDetail"
+    android:background="@drawable/color1"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/card"
+        android:layout_margin="2dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="8dp"
+            app:cardUseCompatPadding="true"
+            android:elevation="0.5dp"
+            app:cardBackgroundColor="@color/l"
+            >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_detailgambar"
+        android:scaleType="fitXY"
+        android:src="@drawable/img"
+        />
+        </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_detailjudul"
+        android:layout_marginTop="370dp"
+        android:textColor="@color/white"
+        android:text="Judul"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_detailtahun"
+        android:textColor="@color/white"
+        android:text="Tahun"
+        android:layout_marginStart="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="420dp"
+        />
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:id="@+id/tv_detailketerangan"
+        android:text="Rilis"
+        android:layout_marginTop="450dp"
+        />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/tv_detailsinopsis"
+        android:text="Sinopsis"
+        android:layout_marginTop="470dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+        />
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

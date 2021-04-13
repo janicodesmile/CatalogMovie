@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TampilanInfo"
+    android:background="@drawable/color1"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoemail"
+        android:visibility="gone"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="60dp"
+        app:cardCornerRadius="15dp"
+        app:cardUseCompatPadding="true"
+        >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tentang Aplikasi"
+            android:textColor="@color/black"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="40dp"
+            android:text="NIM"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="130dp"
+            android:text=": 192406060"
+            />
+
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="40dp"
+            android:text="Nama"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="130dp"
+            android:text=": Delpiero Agustino H"
+            />
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_marginStart="40dp"
+            android:text="Tanggal Lahir"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_marginStart="130dp"
+            android:text=": 25 Agustus 2001"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_marginStart="40dp"
+            android:text="No. Telepon"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_marginStart="130dp"
+            android:text=": 089636566077"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginStart="40dp"
+            android:text="Email"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:layout_marginStart="130dp"
+            android:text=": delpierotino@gmail.com"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginStart="270dp"
+            android:src="@drawable/aseng"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="175dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/black"
+            />
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginStart="130dp"
+            android:text="NIM"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginStart="220dp"
+            android:text=": 192406075"
+            />
+
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:layout_marginStart="130dp"
+            android:text="Nama"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:layout_marginStart="220dp"
+            android:text=": Fadel Ibnu Zahar Srg"
+            />
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginStart="130dp"
+            android:text="Tanggal Lahir"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginStart="220dp"
+            android:text=": 14 November 2001"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:layout_marginStart="130dp"
+            android:text="No. Telepon"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:layout_marginStart="220dp"
+            android:text=": 081376964986"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:layout_marginStart="130dp"
+            android:text="Email"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:layout_marginStart="220dp"
+            android:text=": fadelibnuu@gmail.com"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="205dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/fadel"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi ini sengaja kami buat untuk memenuhi persyaratan mata kuliah Mobile Programming di Universitas Sumatera Utara. Kami pula menyertakan biodata kami di atas."
+            android:layout_marginTop="340dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logousufix"
+            android:layout_marginTop="510dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/gambarr"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="530dp"
+            android:text="UNIVERSITAS SUMATERA UTARA"
+            android:textColor="@color/d"
+            android:textSize="17dp"
+            android:layout_marginStart="115dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="555dp"
+            android:layout_marginEnd="40dp"
+            android:background="@color/d"
+            android:layout_marginStart="115dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIVERSITY OF SUMATERA UTARA"
+            android:textSize="13dp"
+            android:textColor="@color/d"
+            android:layout_marginTop="557dp"
+            android:layout_marginStart="115dp"
+            />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

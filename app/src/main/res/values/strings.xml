@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Movie Catalogue XXI</string>
+    <string name="ket">Rilis</string>
+    <string name="ket2">Belum Rilis</string>
+    <string name="btn1">Favorit</string>
+    <string name="btn2">Bagikan</string>
+    <string name="list">Tampilkan berdasarkan List</string>
+    <string name="cardview">Tampilan Berdasarkan Cardview</string>
+    <string name="setting">Pengaturan</string>
+    <string name="onclick1">Tampilan Mode List</string>
+    <string name="onclick2">Tampilan Mode CardView</string>
+    <string name="info">Info</string>
+</resources>

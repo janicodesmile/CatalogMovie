@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/color1"
+    android:id="@+id/relativeLayout"
+    >
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardReq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="@color/l"
+        android:elevation="0.5dp"
+        app:cardUseCompatPadding="true"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/gambar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ava"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/namaReq"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/putih"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Nama"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/judulReq"
+            android:textColor="@color/putih"
+            android:textSize="10dp"
+            android:text="DESPICABLE ME 2"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="65dp"
+            android:maxLines="5"
+            android:ellipsize="end"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/putih"
+            android:id="@+id/dateReq"
+            android:textSize="10dp"
+            android:layout_marginTop="13dp"
+            android:text="Tanggal"
+            android:layout_marginStart="320dp"/>
+
+
+        <TextView
+            android:id="@+id/timeReq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="30dp"
+            android:text="Jam"
+            android:textColor="@color/putih"
+            android:textSize="10dp" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

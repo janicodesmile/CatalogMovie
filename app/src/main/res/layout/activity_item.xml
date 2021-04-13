@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl"
+    android:background="@drawable/color1"
+    >
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="75dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tes"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="After"
+        android:textSize="15dp"
+        android:textColor="@color/putih"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sinopsis"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+        android:maxLines="4"
+        android:textColor="@color/putih"
+        android:ellipsize="end"
+        />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/keterangan"
+            android:textSize="10dp"
+            android:text="release"
+            android:layout_marginTop="77dp"
+            android:textColor="@color/putih"
+            android:layout_marginStart="100dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tahun"
+            android:textSize="10dp"
+            android:text="2020"
+            android:textColor="@color/putih"
+            android:layout_marginTop="90dp"
+            android:layout_marginStart="100dp"/>
+
+</RelativeLayout>

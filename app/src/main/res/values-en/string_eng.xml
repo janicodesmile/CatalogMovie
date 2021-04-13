@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">List Film</string>
+    <string name="ket">Release</string>
+    <string name="ket2">Coming soon</string>
+    <string name="btn1">Favorite</string>
+    <string name="btn2">Share</string>
+    <string name="list">Show by List</string>
+    <string name="cardview">Show by Cardview</string>
+    <string name="setting">Settings</string>
+    <string name="onclick1">List Mode Display</string>
+    <string name="onclick2">CardView Mode Display</string>
+    <string name="info">Info</string>
+
+</resources>
